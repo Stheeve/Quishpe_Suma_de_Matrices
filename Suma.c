@@ -15,3 +15,17 @@ int matrix[n][m];
 int matrix1[n][m];
 int matrix2[n][m];
 
+
+for (int i = 0; i < n; i++)
+{
+    printf("\n");
+
+    for (int j = 0; j < m; j++)
+    {
+        matrix[i][j]=rand()%101;
+
+        printf("%d \t", matrix[i][j]);
+    }
+    
+}
+}
