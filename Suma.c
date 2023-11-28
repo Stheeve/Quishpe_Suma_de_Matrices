@@ -47,5 +47,21 @@ for (int i = 0; i < n; i++)
     }
     
 }
+    printf("\n");
+    printf("\n");
+    printf("Resultado de la suma de las dos matrices\n");
+
+for (int i = 0; i < n; i++)
+{
+    printf("\n");
+
+    for (int j = 0; j < m; j++)
+    {
+        matrix2[i][j]=matrix[i][j]+matrix1[i][j];
+
+        printf("%d \t", matrix2[i][j]);
+    }
+    
+}
 
 }
